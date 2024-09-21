@@ -1,0 +1,39 @@
+
+{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 5,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 4,
+	"margin-left": 8,
+	"margin-right": 8,
+	
+	
+	"modules-left": [
+		"hyprland/workspaces#number"
+	],
+	
+	"modules-center": [
+		"custom/cava_mviz",
+		"custom/separator#line",
+		"clock",
+		"custom/weather"
+	], 
+	
+	"modules-right": [
+		"group/cpug",
+		"group/memory",
+		"group/gpu",
+		"custom/separator#line",
+		"custom/separator#blank",
+		"wireplumber",
+		"tray",
+		"custom/separator#dot-line",
+		"custom/power"
+		]
+	}
+	
